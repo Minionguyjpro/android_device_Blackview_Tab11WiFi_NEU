@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-DEVICE_PATH := device/incar/Tab11WiFi_NEU
+DEVICE_PATH := device/Blackview/Tab11WiFi_NEU
 
 # Release name
 PRODUCT_RELEASE_NAME := Tab11WiFi_NEU
