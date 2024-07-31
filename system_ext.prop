@@ -1,8 +1,0 @@
-ro.boot.vendor.overlay.theme=com.incar.update.overlay
-ro.fota.app=5
-ro.fota.battery=30
-ro.fota.display=2
-ro.fota.id=sn
-ro.fota.oem=incar6761_12.0
-ro.fota.platform=MTK6739_12.0
-ro.fota.type=phone

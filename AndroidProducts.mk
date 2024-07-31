@@ -1,15 +1,19 @@
 #
-# Copyright (C) 2024 The LineageOS Project
+# Copyright 2024 The Android Open Source Project
 #
-# SPDX-License-Identifier: Apache-2.0
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Tab11WiFi_NEU.mk \
-    $(LOCAL_DIR)/twrp_Tab11WiFi_NEU.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_Tab11WiFi_NEU.mk
 
-COMMON_LUNCH_CHOICES := \
-    lineage_Tab11WiFi_NEU-user \
-    lineage_Tab11WiFi_NEU-userdebug \
-    lineage_Tab11WiFi_NEU-eng \
-    twrp_Tab11WiFi_NEU-eng \
+COMMON_LUNCH_CHOICES := twrp_Tab11WiFi_NEU-eng
