@@ -120,15 +120,6 @@ TARGET_USES_MKE2FS := true
 # Encryption
 TW_INCLUDE_CRYPTO := true
 
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
-TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
-TARGET_ODM_DLKM_PROP += $(DEVICE_PATH)/odm_dlkm.prop
-TARGET_VENDOR_DLKM_PROP += $(DEVICE_PATH)/vendor_dlkm.prop
-
 # Security patch level
 VENDOR_SECURITY_PATCH := 2023-06-05
 
